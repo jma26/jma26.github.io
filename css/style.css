@@ -85,7 +85,7 @@
 }
 
 .skill_section {
-  background-color: #d8d8d8;
+  background-color: #F4F4F4;
 }
 
 /* Introductino in ABOUT section */
@@ -114,7 +114,9 @@
 
 #profile_image {
   border-radius: 50%;
-  margin-top: 40px;
+  margin-top: 60px;
+  width: 400px;
+  margin-bottom: 60px;
 }
 
 /* Skillset Section */

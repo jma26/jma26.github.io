@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    console.log('HELLO');
 
     $(document).on('click', 'a[href^="#"]', function(event) {
         window.setTimeout(function() {
@@ -11,7 +12,7 @@ $(document).ready(function() {
 
     function offsetAnchor() {
         if (location.hash.length !== 0) {
-            window.scrollTo(window.scrollX, window.scrollY - 100);
+            window.scrollTo(window.scrollX, window.scrollY - 60);
         }
     }
 });
