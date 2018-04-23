@@ -90,7 +90,7 @@
 
 /* Introductino in ABOUT section */
 .about_intro {
-  font-size: 24px;
+  font-size: 25px;
 }
 
 .large_intro {
@@ -115,7 +115,7 @@
 #profile_image {
   border-radius: 50%;
   margin-top: 60px;
-  width: 400px;
+  width: 350px;
   margin-bottom: 60px;
 }
 
@@ -153,11 +153,24 @@
 
 .project {
   margin-bottom: 40px;
+  height: 350px;
+  width: 350px;
+  width: 400px;
+  height: 400px;
 }
 
 .project:hover {
   box-shadow: 5px 10px 5px black;
+  opacity: 0.8
 }
+
+/* Reset to text-align left due to col-lg-4 text-center */
+.modal-body {
+  text-align: left;
+}
+
+/* Pop up container */
+
 
 /* Footer Section */
 .footer_section {
@@ -170,7 +183,6 @@
 #footer {
   margin-top: 1%;
 }
-
 
 
 
