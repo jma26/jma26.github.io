@@ -133,13 +133,22 @@
 
 /* Skillset DevIcon */
 .devIcon {
+  transition-duration: 1.5s;
   font-size: 100px;
   display: inline-block;
   margin-bottom: 40px;
 }
 
-.devIcon:hover {
+.devIcon:hover, .icon:hover {
   transform: scale(1.3);
+  transition-duration: 1.5s;
+}
+
+.icon {
+  transition-duration: 1.5s;
+  margin-bottom: 80px;
+  width: 100px;
+  height: 100px;
 }
 
 /* Project Section */
