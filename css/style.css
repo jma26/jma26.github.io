@@ -82,7 +82,7 @@
 
 /* Background for About, Profile, Skill, Project */
 .about_section, #profile_container, .projects_section {
-  background-color: #20948b;
+  background-color: #11A397;
 }
 
 .skill_section {
@@ -188,7 +188,7 @@
 
 /* Footer Section */
 .footer_section {
-  background-color: #135853;
+  background-color: #20948b;
   color: white;
   text-align: center;
   font-size: 16px;
