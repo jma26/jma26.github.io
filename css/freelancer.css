@@ -143,6 +143,15 @@ section h2 {
   padding: 0.8rem;
 }
 
+.mail-link {
+    color: #2C3E50;
+}
+
+.mail-link:hover {
+    text-decoration: none;
+    color: #FFF;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 1.5rem;
