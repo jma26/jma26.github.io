@@ -7,6 +7,7 @@ $secondary-color: #F9BE02;
     box-sizing: border-box;
 }
 
+// Header-section
 .header {
     background-color: $primary-color;
     height: 100vh;
@@ -15,6 +16,7 @@ $secondary-color: #F9BE02;
 
 .header__profile {
     margin: 1rem auto 2rem auto;
+    width: 150px;
 }
 
 .header {
@@ -64,3 +66,8 @@ $secondary-color: #F9BE02;
 .header__footer-icons {
     color: $secondary-color;
 }
+// End of header Section
+
+// About section
+
+// End of About section

@@ -10,7 +10,8 @@
   width: 20em; }
 
 .header__profile {
-  margin: 1rem auto 2rem auto; }
+  margin: 1rem auto 2rem auto;
+  width: 150px; }
 
 .header {
   text-align: center; }
