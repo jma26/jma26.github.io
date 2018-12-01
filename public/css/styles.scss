@@ -23,6 +23,7 @@ $secondary-color: #F9BE02;
     background-color: $primary-color;
     height: 100vh;
     width: 20em;
+    position: fixed;
 }
 
 .header__profile {
@@ -83,6 +84,7 @@ $secondary-color: #F9BE02;
 .main {
     width: 100%;
     height: 100%;
+    overflow-y: auto;
 }
 .main__section-one:before {
     background-image: url('https://via.placeholder.com/800');
@@ -114,3 +116,30 @@ $secondary-color: #F9BE02;
     height: auto;
 }
 // End of Skills & Technologies section
+
+// Projects -3 section
+.project-1__image--placeholder {
+    img {
+        display: inline-block;
+        width: 45%;
+    }
+    .project-1__desc {
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 1rem;
+        width: 50%;
+        .project-1__tech {
+            display: inline-block;
+            list-style-position: inside;
+            margin-top: 2rem;
+            li {
+                padding-left: 1rem;
+            }
+        }
+        .project-1__info--italic {
+            font-style: italic;
+            margin-top: 0.5rem;
+        }
+    }
+}
+// End of Project section
