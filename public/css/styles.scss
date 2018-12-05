@@ -9,21 +9,28 @@ $secondary-color: #F9BE02;
 
 .containers {
     border: 2px solid gray;
-    width: 48rem;
+    width: 56rem;
     margin-left: auto;
     margin-right: auto;
+}
+
+.section-headers {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    padding: 48px 0px;
 }
 
 // Header-section
 .flex-wrapper {
     display: flex;
+    height: 100vh;
+    width: 100vw;
 }
 
 .header {
     background-color: $primary-color;
-    height: 100vh;
+    height: 100%;
     width: 20em;
-    position: fixed;
 }
 
 .header__profile {
@@ -86,6 +93,7 @@ $secondary-color: #F9BE02;
     height: 100%;
     overflow-y: auto;
 }
+
 .main__section-one:before {
     background-image: url('https://via.placeholder.com/800');
     background-position: center;
@@ -97,9 +105,35 @@ $secondary-color: #F9BE02;
     width: 100%;
 }
 
+.section-one__header {
+    font-size: 4rem;
+    padding-top: 80px;
+}
+
+.section-one__content {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-top: 24px;
+}
+
+.about-email {
+    margin-bottom: 32px;
+    a {
+        color: $primary-color;
+        text-decoration: none;
+    }
+    a:hover {
+        color: $secondary-color;
+    }
+}
+
 // End of About section
 
 // Skills & Technologies -2 section
+.main__section-two {
+    border-top: 6px solid #F4F4F4;
+}
+
 .section-two__icon-list {
     list-style-type: none;
     li {
