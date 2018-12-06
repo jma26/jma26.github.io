@@ -2,6 +2,7 @@ $primary-color: #20948B;
 $secondary-color: #F9BE02;
 
 * {
+    font-family: 'Lato', sans-serif;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -141,6 +142,7 @@ $secondary-color: #F9BE02;
     }
     h3 {
         text-align: center;
+        font-weight: 400;
     }
 }
 
