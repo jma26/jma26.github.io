@@ -157,39 +157,55 @@ $secondary-color: #F9BE02;
 .project-overlay {
     display: inline-block;
     position: relative;
-    width: 45%;
+    width: 50%;
 }
 .project-images {
     display: block;
+    height: auto;
     width: 100%;
 }
 
 .project-links-container {
     border: 1px solid green;
+    .project-1__link--1 {
+        left: 20%;
+        top: 40%;
+    }
+    .project-1__link--2 {
+        left: 60%;
+        top: 40%;
+    }
+    a {
+        background-color: #FFF;
+        border-radius: 10px;
+        display: none;
+        padding: 8px 16px;
+        position: absolute;
+        text-decoration: none;
+        left: 40%;
+        top: 40%;
+    }
 }
 
-.project-links {
-    background-color: #FFF;
-    border-radius: 10px;
-    display: none;
-    padding: 8px 16px;
-    position: absolute;
-    text-decoration: none;
-    top: 40%;
-    left: 40%;
-}
 
 // Hover to display link
 .project-overlay:hover {
+    .project-images {
+        opacity: 0.6;
+    }
     .project-links {
+        background-color: $primary-color;
+        color: $secondary-color;
         display: block;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
     }
 }
 
 .project-descriptions {
     display: inline-block;
     vertical-align: top;
-    width: 50%;
+    width: 45%;
     .technology-lists {
         display: inline-block;
         list-style-position: inside;
