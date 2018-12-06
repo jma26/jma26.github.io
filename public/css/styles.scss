@@ -2,10 +2,11 @@ $primary-color: #20948B;
 $secondary-color: #F9BE02;
 
 * {
+    box-sizing: border-box;
     font-family: 'Lato', sans-serif;
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    text-decoration: none;
 }
 
 .containers {
@@ -76,9 +77,6 @@ $secondary-color: #F9BE02;
         list-style-type: none;
         display: flex;
         justify-content: space-evenly;
-        .footer-items a{
-            text-decoration-color: #FFF;
-        }
     }
 }
 
@@ -120,7 +118,6 @@ $secondary-color: #F9BE02;
     margin-bottom: 48px;
     a {
         color: $primary-color;
-        text-decoration: none;
     }
     a:hover {
         color: $secondary-color;
@@ -187,7 +184,6 @@ $secondary-color: #F9BE02;
             display: none;
             padding: 8px 16px;
             position: absolute;
-            text-decoration: none;
             left: 40%;
             top: 40%;
         }
