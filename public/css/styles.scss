@@ -154,38 +154,43 @@ $secondary-color: #F9BE02;
 .main__section-three {
     border-top: 6px solid #F4F4F4;
 }
+.project-articles {
+    margin-bottom: 64px;
+    .project-title {
+        font-size: 24px;
+    }
+}
+
 .project-overlay {
     display: inline-block;
     position: relative;
     width: 50%;
-}
-.project-images {
-    display: block;
-    height: auto;
-    width: 100%;
-}
-
-.project-links-container {
-    .project-1__link--1 {
-        left: 20%;
-        top: 40%;
+    .project-images {
+        display: block;
+        height: auto;
+        width: 100%;
     }
-    .project-1__link--2 {
-        left: 60%;
-        top: 40%;
-    }
-    a {
-        background-color: #FFF;
-        border-radius: 10px;
-        display: none;
-        padding: 8px 16px;
-        position: absolute;
-        text-decoration: none;
-        left: 40%;
-        top: 40%;
+    .project-links-container {
+        .project-1__link--1 {
+            left: 20%;
+            top: 40%;
+        }
+        .project-1__link--2 {
+            left: 60%;
+            top: 40%;
+        }
+        a {
+            background-color: #FFF;
+            border-radius: 10px;
+            display: none;
+            padding: 8px 16px;
+            position: absolute;
+            text-decoration: none;
+            left: 40%;
+            top: 40%;
+        }
     }
 }
-
 
 // Hover to display link
 .project-overlay:hover {
@@ -201,22 +206,23 @@ $secondary-color: #F9BE02;
         text-transform: uppercase;
     }
 }
+// End of Hover
 
 .project-descriptions {
     display: inline-block;
+    margin-left: 32px;
     vertical-align: top;
     width: 45%;
+    .project-infos {
+        font-style: italic;
+        line-height: 2;
+        margin-top: 0.5rem;
+    }
     .technology-lists {
         display: inline-block;
-        list-style-position: inside;
+        line-height: 2;
+        margin-left: 1rem;
         margin-top: 2rem;
-        li {
-            padding-left: 1rem;
-        }
     }
-}
-.project-infos {
-    font-style: italic;
-    margin-top: 0.5rem;
 }
 // End of Project section
