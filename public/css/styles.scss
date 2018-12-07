@@ -229,3 +229,26 @@ section {
     }
 }
 // End of Project section
+
+// Project -4 Contact section
+.main__section-four {
+    border-top: 6px solid #F4F4F4;
+}
+
+.contact-list {
+    display: flex;
+    list-style-type: none;
+    .contact-items {
+        padding: 24px 48px 24px 0px;
+        .contact-icons {
+            color: $primary-color;
+        }
+    }
+}
+
+.section-four__resume {
+    .resume-icon {
+        color: $primary-color;
+    }
+}
+// End of Contact section
