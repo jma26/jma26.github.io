@@ -9,6 +9,10 @@ $secondary-color: #F9BE02;
     text-decoration: none;
 }
 
+section {
+    min-height: 100%;
+}
+
 .containers {
     width: 56rem;
     margin-left: auto;
