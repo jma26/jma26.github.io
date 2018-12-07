@@ -100,6 +100,10 @@ section {
 // End of header Section
 
 // About - 1 section
+.section-one__container {
+    padding-right: 64px;
+}
+
 .main {
     width: 100%;
     height: 100%;
@@ -282,11 +286,5 @@ section {
     }
     .section-header {
         display: none;
-    }
-}
-
-@media only screen and (min-width: 1119px) and (max-width: 1224px) {
-    .header {
-        width: 15em;
     }
 }
