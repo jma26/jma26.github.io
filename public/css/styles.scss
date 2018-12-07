@@ -120,7 +120,7 @@ section {
 }
 
 .about-email {
-    margin-bottom: 48px;
+    padding-bottom: 48px;
     a {
         color: $primary-color;
     }
@@ -252,3 +252,23 @@ section {
     }
 }
 // End of Contact section
+
+@media only screen and (max-width: 1224px) {
+    .project-overlay {
+        width: 100%;
+    }
+    .project-descriptions {
+        width: 100%;
+        margin-left: 0px;
+        .project-title {
+            padding-top: 16px;
+        }
+    }
+    .containers {
+        padding: 0px 32px;
+        width: 100%;
+    }
+    .section-header {
+        display: none;
+    }
+}
