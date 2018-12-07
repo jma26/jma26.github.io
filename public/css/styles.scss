@@ -16,6 +16,7 @@ $secondary-color: #F9BE02;
 }
 
 .section-headers {
+    color: $secondary-color;
     font-size: 2rem;
     letter-spacing: 2px;
     padding: 48px 0px;
@@ -92,23 +93,22 @@ $secondary-color: #F9BE02;
     overflow-y: auto;
 }
 
-.main__section-one:before {
-    background-image: url('https://via.placeholder.com/800');
+.main__section-one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/background-image.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    content: '';
-    display: block;
-    height: 15em;
-    width: 100%;
+    height: 100%;
+    width: auto;
 }
 
 .section-one__header {
     font-size: 4rem;
-    padding-top: 80px;
+    padding-top: 240px;
 }
 
 .section-one__content {
+    color: #FFF;
     font-size: 1.5rem;
     line-height: 1.2;
     margin-top: 32px;
