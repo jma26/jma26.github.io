@@ -14,6 +14,7 @@ section {
 }
 
 .containers {
+    padding-left: 32px;
     width: 56rem;
     margin-left: auto;
     margin-right: auto;
@@ -40,7 +41,7 @@ section {
 }
 
 .header__profile {
-    margin: 1rem auto 2rem auto;
+    margin: 2rem auto;
     width: 150px;
 }
 
@@ -116,7 +117,7 @@ section {
     color: #FFF;
     font-size: 1.5rem;
     line-height: 1.2;
-    padding-top: 32px;
+    padding: 32px 16px 0px 0px;
 }
 
 .about-email {
@@ -140,7 +141,7 @@ section {
     list-style-type: none;
     li {
         display: inline-block;
-        padding: 32px 16px;
+        padding: 32px 16px 32px 0px;
     }
     h3 {
         text-align: center;
@@ -253,7 +254,7 @@ section {
 }
 // End of Contact section
 
-@media only screen and (max-width: 1224px) {
+@media only screen and (max-width: 1118px) {
     .section-one__header {
         padding-top: 48px;
     }
@@ -274,5 +275,11 @@ section {
     }
     .section-header {
         display: none;
+    }
+}
+
+@media only screen and (min-width: 1119px) and (max-width: 1224px) {
+    .header {
+        width: 15em;
     }
 }
