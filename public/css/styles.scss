@@ -67,11 +67,13 @@ section {
         font-size: 24px;
         margin-top: 16px;
         padding: 8px 0px;
+        transition: background-color 0.2s linear;
     }
     .nav-items:hover {
         background-color: $secondary-color;
         color: black;
         cursor: pointer;
+        transition: background-color 0.2s linear;
     }
 }
 
@@ -84,12 +86,17 @@ section {
         list-style-type: none;
         display: flex;
         justify-content: space-evenly;
+        .footer-icons {
+            color: $secondary-color;
+            transition: color 0.2s linear;
+        }
+        .footer-icons:hover {
+            color: black;
+            transition: color 0.2s linear;
+        }
     }
 }
 
-.footer-icons {
-    color: $secondary-color;
-}
 // End of header Section
 
 // About - 1 section
