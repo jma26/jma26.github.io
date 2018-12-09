@@ -104,7 +104,7 @@ section {
     padding-right: 64px;
 }
 
-.main {
+#main {
     width: 100%;
     height: 100%;
     overflow-y: auto;
@@ -265,7 +265,7 @@ section {
 }
 // End of Contact section
 
-@media only screen and (max-width: 1118px) {
+@media only screen and (max-width: 1220px) {
     .section-one__header {
         padding-top: 48px;
     }
