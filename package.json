@@ -1,0 +1,30 @@
+{
+  "name": "jma26.github.io",
+  "version": "1.0.0",
+  "description": "PORTFOLIO IN PROGRESS (VERSION 2)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm-run-all -p -r server browser-sync",
+    "server": "nodemon server.js",
+    "browser-sync": "browser-sync start --proxy localhost:8000 --files='public/css', 'public/images', 'public/index.html'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jma26/jma26.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jma26/jma26.github.io/issues"
+  },
+  "homepage": "https://github.com/jma26/jma26.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
