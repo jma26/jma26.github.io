@@ -119,9 +119,13 @@ section {
     width: auto;
 }
 
+.section-one__container {
+    padding-top: 224px;
+    padding-bottom: 64px;
+}
+
 .section-one__header {
     font-size: 4rem;
-    padding-top: 240px;
 }
 
 .section-one__content {
@@ -265,12 +269,49 @@ section {
 }
 // End of Contact section
 
+// Global settings up to large devices
 @media only screen and (max-width: 1220px) {
-    .section-one__header {
-        padding-top: 48px;
+    .section-header {
+        display: none;
     }
     .project-overlay {
         width: 100%;
+    }
+    .containers {
+        padding: 0px 32px;
+        width: 100%;
+    }
+    .project-descriptions {
+        width: 100%;
+    }
+    
+}
+
+// Small 
+@media only screen and (max-width: 576px) {
+    .section-one__content {
+        font-size: 16px;
+    }
+    .contact-icons, .resume-icon {
+        font-size: 48px;
+    }
+    .project-descriptions {
+        margin-left: 0px;
+        padding-top: 16px;
+    }
+}
+
+// Medium to large
+@media only screen and (min-width: 577px) and (max-width: 1220px) {
+    .section-headers {
+        font-size: 48px;
+        width: 100%;
+    }
+    .section-one__header {
+        padding-top: 48px;
+    }
+    .section-one__content {
+        font-size: 24px; 
     }
     .project-descriptions {
         font-size: 24px;
@@ -280,11 +321,13 @@ section {
             padding-top: 16px;
         }
     }
-    .containers {
-        padding: 0px 32px;
-        width: 100%;
+    .contact-icons, .resume-icon {
+        font-size: 48px;
     }
-    .section-header {
-        display: none;
+    .section-two__icon-list {
+        li {
+            display: inline-block;
+            padding: 32px 16px 32px 0px;
+        }
     }
 }
