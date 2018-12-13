@@ -714,19 +714,6 @@
             vertical-align: top;
             padding: 16px 16px 16px 0px;
 
-			&:before {
-				background: _palette(accent1, bg);
-				border-radius: 100%;
-				color: _palette(accent1, fg-bold);
-				display: block;
-				height: 2.5em;
-				left: 0;
-				line-height: 2.5em;
-				position: absolute;
-				text-align: center;
-				top: 0;
-				width: 2.5em;
-            }
             img.tech-icons {
                 width: 80px;
                 height: auto;
@@ -1536,26 +1523,6 @@ ul.contact-icons {
 				}
 			}
 
-		/* Footer */
-
-			#footer {
-				text-align: center;
-
-				.copyright {
-					li {
-						border-left: 0;
-						display: block;
-						line-height: 1.75em;
-						margin: 0.75em 0 0 0;
-						padding-left: 0;
-
-						&:first-child {
-							margin-top: 0;
-						}
-					}
-				}
-			}
-
 		/* Header Panel */
 
 			#titleBar {
@@ -1640,8 +1607,7 @@ ul.contact-icons {
 
 				&.feature-icons {
 					li {
-						display: block;
-						width: 100%;
+                        display: inline-block;
 					}
 				}
 			}

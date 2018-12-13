@@ -1281,18 +1281,6 @@ ul.feature-icons {
       font-style: normal;
       font-weight: normal;
       text-transform: none !important; }
-    ul.feature-icons li:before {
-      background: #4acaa8;
-      border-radius: 100%;
-      color: #ffffff;
-      display: block;
-      height: 2.5em;
-      left: 0;
-      line-height: 2.5em;
-      position: absolute;
-      text-align: center;
-      top: 0;
-      width: 2.5em; }
     ul.feature-icons li img.tech-icons {
       width: 80px;
       height: auto; }
@@ -1858,18 +1846,6 @@ input[type="button"],
   #main > section > .container {
     padding: 2em 0 0 0; }
 
-  /* Footer */
-  #footer {
-    text-align: center; }
-    #footer .copyright li {
-      border-left: 0;
-      display: block;
-      line-height: 1.75em;
-      margin: 0.75em 0 0 0;
-      padding-left: 0; }
-      #footer .copyright li:first-child {
-        margin-top: 0; }
-
   /* Header Panel */
   #titleBar .toggle {
     height: 4em;
@@ -1912,8 +1888,7 @@ input[type="button"],
       ul.actions.small li:first-child {
         padding-top: 0; }
   ul.feature-icons li {
-    display: block;
-    width: 100%; }
+    display: inline-block; }
 
   /* Button */
   input[type="submit"],
