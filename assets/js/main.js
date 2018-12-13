@@ -61,7 +61,10 @@
 
 			$nav_a
 				.addClass('scrolly')
-				.on('click', function() {
+				.on('click', function(event) {
+                    // Prevent hashes on url
+                    event.preventDefault();
+                    event.stopPropagation();
 
 					var $this = $(this);
 
