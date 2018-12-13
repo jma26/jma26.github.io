@@ -1201,6 +1201,11 @@ input[type="radio"] + label:before {
     left: 0;
     width: 100%;
     height: 100%; }
+  .image[data-position="custom"] img {
+    -moz-object-position: 25% 15%;
+    -webkit-object-position: 25% 15%;
+    -ms-object-position: 25% 15%;
+    object-position: 25% 15%; }
   .image[data-position="top left"] img {
     -moz-object-position: top left;
     -webkit-object-position: top left;
@@ -1418,10 +1423,9 @@ ul.feature-icons {
     text-decoration: none;
     display: inline-block;
     margin: 0 0 1.6875em 0;
-    padding: 0.35em 0 0 3.5em;
     position: relative;
     vertical-align: top;
-    width: 48%; }
+    padding: 16px 16px 16px 0px; }
     ul.feature-icons li:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
@@ -1441,6 +1445,11 @@ ul.feature-icons {
       text-align: center;
       top: 0;
       width: 2.5em; }
+    ul.feature-icons li img.tech-icons {
+      width: 80px;
+      height: auto; }
+    ul.feature-icons li p.tech-name {
+      text-align: center; }
 
 /* Icons */
 ul.icons {
