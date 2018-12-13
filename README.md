@@ -1,3 +1,3 @@
 # jma26.github.io
 
-PORTFOLIO IN PROGRESS (VERSION 2)
+Hello! Welcome to my portfolio repository, feel free to checkout the live link above
