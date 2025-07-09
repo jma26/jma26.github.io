@@ -2,6 +2,7 @@
 	import { Badge, Button, Card, Timeline, TimelineItem } from 'flowbite-svelte';
 	import { ArrowRightOutline, CalendarMonthSolid } from 'flowbite-svelte-icons';
   import { AccordionItem, Accordion } from "flowbite-svelte";
+  import CheckItOutProjectPlaceholder from '$lib/images/check-it-out.png';
   import HeroHeader from '$lib/components/HeroHeader.svelte';
 </script>
 
@@ -253,5 +254,22 @@
   </article>
 </section>
 
-<section class="container flex-col w-full mx-auto my-8 p-4 lg:my-0">
+<section class="container flex flex-col w-full mx-auto my-8 p-4 lg:my-0">
+  <h2 class="font-bold mb-6 text-3xl md:4xl xl:text-5xl dark:text-white">Projects</h2>
+  <article class="flex-wrap">
+    <Card class="flex flex-col p-3">
+      <a href="https://jwu910.github.io/check-it-out/" target="_blank">
+        <figure>
+          <img src={CheckItOutProjectPlaceholder}  alt="Screenshot of Check it out landing page"/>
+        </figure>
+      </a>
+      <h3 class="mt-3 text-xl font-semibold text-black dark:text-gray-400"><a href="https://jwu910.github.io/check-it-out/" target="_blank">Check it out</a></h3>
+      <div class="flex flex-wrap gap-2 mt-3">
+        <Badge border color="secondary" class="py-1 px-2">HTML</Badge>
+        <Badge border color="secondary" class="py-1 px-2">SCSS/CSS</Badge>
+      </div>
+      <p class="mt-3 text-base">Simple landing page built with HTMl, CSS for an open source project</p>
+    </Card>
+  </article>
+  <a class="my-8" href="/archive-projects" ><Button size="sm">View Full Project Archive</Button></a>
 </section>
