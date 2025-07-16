@@ -1,5 +1,5 @@
     <script>
-      import { Badge, Timeline, TimelineItem } from 'flowbite-svelte';
+      import { A, Badge, Timeline, TimelineItem } from 'flowbite-svelte';
       import { ArrowUpRightFromSquareOutline, CalendarMonthSolid } from 'flowbite-svelte-icons';
     </script>
     
@@ -50,6 +50,6 @@
             </div>
           </TimelineItem>
         </Timeline>
-        <a class="flex gap-2 mt-12 place-self-start text-white duration-300 active:text-orange-600 focus:text-orange-600 hover:text-orange-500" href="/resume">View Resume <ArrowUpRightFromSquareOutline /></a>
+        <A class="flex gap-2 mt-12 place-self-start text-white duration-300 active:text-orange-600 focus:text-orange-600 hover:text-orange-500" href="https://drive.google.com/file/d/14dqj_QCUM63ubX2vKs9glhIASJKUkbxa/view?usp=sharing" target="_blank">View Resume <ArrowUpRightFromSquareOutline /></A>
       </article>
     </section>
