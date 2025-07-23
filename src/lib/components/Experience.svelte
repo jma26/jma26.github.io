@@ -50,6 +50,6 @@
             </div>
           </TimelineItem>
         </Timeline>
-        <A class="flex gap-2 mt-12 place-self-start text-white duration-300 active:text-orange-600 focus:text-orange-600 hover:text-orange-500" href="https://drive.google.com/file/d/14dqj_QCUM63ubX2vKs9glhIASJKUkbxa/view?usp=sharing" target="_blank">View Resume <ArrowUpRightFromSquareOutline /></A>
+        <A class="flex gap-2 mt-12 place-self-start text-white duration-300 active:text-orange-600 focus:text-orange-600 hover:text-orange-500" href="https://drive.google.com/file/d/1gn4XlHbV5IDnzp7dehyncUiAEzGoncw5/view?usp=sharing" target="_blank">View Resume <ArrowUpRightFromSquareOutline /></A>
       </article>
     </section>
