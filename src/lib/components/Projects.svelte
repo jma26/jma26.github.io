@@ -1,6 +1,7 @@
 <script>
   import { Badge, Button } from "flowbite-svelte";
   import CheckItOutImage from '$lib/images/check-it-out.png';
+  import CatasticMemeGeneratorImage from '$lib/images/catastic-meme-generator.png';
 </script>    
     
 <section class="container flex flex-col w-full mx-auto my-16">
@@ -20,6 +21,24 @@
             <div class="flex flex-wrap gap-2 my-4">
               <Badge border class="bg-orange-600 border-orange-600 py-1 px-2 text-white">HTML</Badge>
               <Badge border class="bg-orange-600 border-orange-600 py-1 px-2 text-white">SCSS/CSS</Badge>
+            </div>
+          </div>
+        </div>
+      </a>
+    </article>
+    <article>
+      <a href="https://jesseiscoding.com/Catastic-Image-Generator/" target="_blank">
+        <div class="flex flex-col md:flex-row">
+          <figure class="basis-1/2">
+            <img class="h-full w-full object-cover" src={CatasticMemeGeneratorImage} alt="Catastic Meme Generator card" />
+          </figure>
+          <div class="basis-1/2 p-8">
+            <h3 class="font-semibold text-white">Catastic Image Generator </h3>
+            <p class="mt-2 text-white">Cat image generator utilziing CATAAS API (Cat as a service). Built with HTML, SCSS, JS</p>
+            <div class="flex flex-wrap gap-2 my-4">
+              <Badge border class="bg-orange-600 border-orange-600 py-1 px-2 text-white">HTML</Badge>
+              <Badge border class="bg-orange-600 border-orange-600 py-1 px-2 text-white">SCSS/CSS</Badge>
+              <Badge border class="bg-orange-600 border-orange-600 py-1 px-2 text-white">JavaScript</Badge>
             </div>
           </div>
         </div>
