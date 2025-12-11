@@ -5,8 +5,8 @@
 <header class="flex flex-col flex-wrap w-full justify-between mx-auto text-white xl:sticky lg:top-0 xl:max-h-screen lg:py-24">
   <div>
     <h1 class="text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">Jesse Ma</h1>
-    <p class="font-light text-left mt-2 text-white md:text-lg lg:text-xl sm:px-0 lg:px-0 xl:px-0">Full Stack Web Developer | Shopify Developer</p>
-    <p class="text-left max-w-md my-6 text-white md:text-lg lg:text-xl sm:px-0">Full stack web developer from OC | LA California. <br class="hidden md:block"/>I build pixel-perfect online experiences and apps for companies large and small.</p>
+    <p class="font-light text-left mt-2 text-white md:text-lg lg:text-xl sm:px-0 lg:px-0 xl:px-0">Front End Web Developer | Shopify Developer</p>
+    <p class="text-left max-w-md my-6 text-white md:text-lg lg:text-xl sm:px-0">Front end web developer from OC | LA California. <br class="hidden md:block"/>I build pixel-perfect online experiences and apps for companies large and small.</p>
   </div>
   <ul class="flex gap-4">
     <li class="duration-300 active:text-orange-600 focus:text-orange-600 hover:text-orange-500">

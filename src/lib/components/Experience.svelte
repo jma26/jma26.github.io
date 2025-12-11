@@ -15,10 +15,12 @@
             {/snippet}
             <ul class="list-disc ml-4 my-4 text-white">
               <li>Collaborated with UI/UX and marketing teams in implementing a new design system across multiple Shopify storefronts, improving design consistency and user engagement metrics</li> 
+              <li>Developed RESTful APIs connecting Shopify to Mailchimp and other platforms, enabling automated marketing workflows and real-time customer data synchronization</li>
               <li>Built and maintained MERN stack web applications critical for distributor access to marketing assets</li>
-              <li>Supported marketing campaigns by building out mobile-first, responsive promotional landing pages and emails</li>
+              <li>Developed and optimized Shopify themes and landing pages using Liquid, HTML, CSS, JavaScript</li>
               <li>Architected and executed the migration of the company website from PHP Laravel to WordPress, implementing custom theme development, plugin integration, and complete data migration, resulting in a more maintainable and manageable platform for non-technical staff</li>
               <li>Identified areas of improvements in site performance with analytic tools (Lighthouse/Clarity), reducing average page load times and increasing conversion rates</li>
+              <li>Integrated and managed Shopify apps and vendor tools like ReCharge, Klaviyo, Mailchimp, and Yotpo to enhance site functionality and retention</li>
             </ul>
             <p class="my-4 text-white">
             </p>
@@ -67,6 +69,6 @@
             </div>
           </TimelineItem>
         </Timeline>
-        <A class="flex gap-2 mt-12 place-self-start text-white duration-300 active:text-orange-600 focus:text-orange-600 hover:text-orange-500" href="https://drive.google.com/file/d/17Ke6um6-cdgnQztISq7P8lGON_txNtID/view?usp=sharing" target="_blank">View Resume <ArrowUpRightFromSquareOutline /></A>
+        <A class="flex gap-2 mt-12 place-self-start text-white duration-300 active:text-orange-600 focus:text-orange-600 hover:text-orange-500" href="https://drive.google.com/file/d/1J17DUQOwtNh4T9b7-tuI6J0BdMuVcUPU/view?usp=sharing" target="_blank">View Resume <ArrowUpRightFromSquareOutline /></A>
       </article>
     </section>
