@@ -3,7 +3,8 @@
       import { ArrowUpRightFromSquareOutline, CalendarMonthSolid } from 'flowbite-svelte-icons';
     </script>
     
-    <section id="experience" class="container flex flex-col w-full mx-auto my-16">
+    <section id="experience" class="container flex flex-col w-full mx-auto my-16 relative">
+      <span class="marker absolute h-px top-[68vh] w-px"></span>
       <article class="flex-col flex-wrap">
         <div class="backdrop-blur -mx-5 p-5 sticky top-0 z-10 lg:static xl:mb-4">
           <h2 class="text-white font-bold text-3xl md:4xl xl:text-5xl">Experience</h2>
@@ -11,7 +12,7 @@
         <Timeline class="ml-4 text-white"order="vertical">
           <TimelineItem h3Class="mb-0 text-white" liClass="ms-8 relative" title="Web Developer · Lifetech Resources" date="2021 - June 2025">
             {#snippet orientationSlot()}
-              <span class="bg-orange-600 absolute -start-11 h-6 w-6 rounded-full ring-6 ring-white top-1"></span>
+              <span class="absolute bg-orange-600 -start-11 h-6 w-6 rounded-full ring-6 ring-white top-1"></span>
             {/snippet}
             <ul class="list-disc ml-4 my-4 text-white">
               <li>Collaborated with UI/UX and marketing teams in implementing a new design system across multiple Shopify storefronts, improving design consistency and user engagement metrics</li> 

@@ -8,29 +8,31 @@
   import { onMount } from 'svelte';
 
   let activeSection = '';
-  const sections = ['about', 'experience', 'projects'];
+  let lastActive = '';
 
   onMount(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            activeSection = entry.target.id;
+            const sectionId = entry.target.closest('section')?.id;
+
+            if (sectionId && sectionId !== lastActive) {
+              lastActive = sectionId;
+              activeSection = sectionId;
+            }
           }
         });
       },
       {
-        rootMargin: '-20% 0px -60% 0px',
-        threshold: 0
+        // rootMargin: '-10% 0px -10% 0px',
+        threshold: 0.10
       }
     );
 
-    sections.forEach((section) => {
-      const el = document.getElementById(section);
-      if (el) {
-        observer.observe(el);
-      }
-    });
+    document.querySelectorAll('.marker').forEach((marker) => {
+      observer.observe(marker);
+    })
 
     return () => observer.disconnect();
   })

@@ -1,4 +1,5 @@
-<section id="about" class="container flex flex-col mx-auto text-white w-full">
+<section id="about" class="container flex flex-col mx-auto relative text-white w-full">
+  <span class="marker h-px top-[25vh] absolute w-px"></span>
   <div class="backdrop-blur -mx-5 p-5 sticky top-0 z-10 lg:static xl:pt-0 xl:mb-4">
     <h2 class="font-bold text-3xl md:4xl xl:text-5xl">Who am I?</h2>
   </div>

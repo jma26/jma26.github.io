@@ -4,7 +4,8 @@
   import CatasticMemeGeneratorImage from '$lib/images/catastic-meme-generator.png';
 </script>    
     
-<section id="projects" class="container flex flex-col w-full mx-auto my-16">
+<section id="projects" class="container flex flex-col w-full mx-auto my-16 relative">
+  <span class="marker h-px top-[0vh] absolute w-px"></span>
   <div class="backdrop-blur -mx-5 p-5 sticky top-0 z-10 lg:static xl:mb-4">
     <h2 class="font-bold text-white text-3xl md:4xl xl:text-5xl">Projects</h2>
   </div>
