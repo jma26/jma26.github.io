@@ -1,13 +1,46 @@
 <script>
   import { EnvelopeSolid, GithubSolid, LinkedinSolid } from 'flowbite-svelte-icons';
+  export let activeSection;
 </script>
+
+<style>
+  .active .nav-indicator {
+    width: 5rem;
+    background-color: #FFFFFF;
+  }
+  .active .nav-section {
+    color: #FFFFFF;
+  }
+</style>
 
 <header class="flex flex-col flex-wrap w-full justify-between mx-auto text-white xl:sticky lg:top-0 xl:max-h-screen lg:py-24">
   <div>
     <h1 class="text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">Jesse Ma</h1>
-    <p class="font-light text-left mt-2 text-white md:text-lg lg:text-xl sm:px-0 lg:px-0 xl:px-0">Front End Web Developer | Shopify Developer</p>
-    <p class="text-left max-w-md my-6 text-white md:text-lg lg:text-xl sm:px-0">Front end web developer from OC | LA California. <br class="hidden md:block"/>I build pixel-perfect online experiences and apps for companies large and small.</p>
+    <p class="font-light text-left mt-4 text-white md:text-lg lg:text-xl sm:px-0 lg:px-0 xl:px-0">Full Stack Web Developer | Shopify Developer</p>
+    <p class="text-left max-w-md my-6 text-white sm:px-0">Full stack web developer from OC | LA California. <br class="hidden md:block"/>I build pixel-perfect online experiences and apps for companies large and small.</p>
   </div>
+  <nav class="hidden mb-auto mt-16 xl:block">
+    <ul class="flex flex-col gap-4 w-max">
+      <li>
+        <a class:active={activeSection === 'about'} class="flex items-center" href="#about">
+          <span class="nav-indicator bg-gray-400 block ease-linear h-px mr-4 text-gray-400 transition-all w-8"></span>
+          <span class="nav-section text-gray-400">About</span>
+        </a>
+      </li>
+      <li>
+        <a class:active={activeSection === 'experience'} class="flex items-center" href="#experience">
+          <span class="nav-indicator bg-gray-400 block ease-linear h-px mr-4 text-gray-400 transition-all w-8"></span>
+          <span class="nav-section text-gray-400">Experience</span>
+        </a>
+      </li>
+      <li>
+        <a class:active={activeSection === 'projects'} class="flex items-center" href="#projects">
+          <span class="nav-indicator bg-gray-400 block ease-linear h-px mr-4 text-gray-400 transition-all w-8"></span>
+          <span class="nav-section text-gray-400">Projects</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
   <ul class="flex gap-4">
     <li class="duration-300 active:text-orange-600 focus:text-orange-600 hover:text-orange-500">
       <a href="https://www.linkedin.com/in/jesse-ma/" target="_blank"><LinkedinSolid /></a>

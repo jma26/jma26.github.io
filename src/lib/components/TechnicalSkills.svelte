@@ -4,7 +4,7 @@
 
 <section class="container flex flex-col w-full mx-auto my-16">
   <article class="flex-col flex-wrap">
-    <div class="backdrop-blur -mx-5 p-5 sticky top-0 z-10 lg:static xl:mb-0">
+    <div class="backdrop-blur -mx-5 p-5 sticky top-0 z-10 lg:static xl:mb-4">
       <h2 class="font-bold text-white text-3xl md:4xl xl:text-5xl">Technical Skills</h2>
     </div>
     <Accordion>

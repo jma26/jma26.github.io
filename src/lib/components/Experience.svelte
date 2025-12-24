@@ -3,9 +3,9 @@
       import { ArrowUpRightFromSquareOutline, CalendarMonthSolid } from 'flowbite-svelte-icons';
     </script>
     
-    <section class="container flex flex-col w-full mx-auto my-16">
+    <section id="experience" class="container flex flex-col w-full mx-auto my-16">
       <article class="flex-col flex-wrap">
-        <div class="backdrop-blur mb-5 -mx-5 p-5 sticky top-0 z-10 lg:static xl:mb-0">
+        <div class="backdrop-blur -mx-5 p-5 sticky top-0 z-10 lg:static xl:mb-4">
           <h2 class="text-white font-bold text-3xl md:4xl xl:text-5xl">Experience</h2>
         </div>
         <Timeline class="ml-4 text-white"order="vertical">
@@ -69,6 +69,6 @@
             </div>
           </TimelineItem>
         </Timeline>
-        <A class="flex gap-2 mt-12 place-self-start text-white duration-300 active:text-orange-600 focus:text-orange-600 hover:text-orange-500" href="https://drive.google.com/file/d/1J17DUQOwtNh4T9b7-tuI6J0BdMuVcUPU/view?usp=sharing" target="_blank">View Resume <ArrowUpRightFromSquareOutline /></A>
+        <A class="flex gap-2 mt-12 place-self-start text-white duration-300 active:text-orange-600 focus:text-orange-600 hover:text-orange-500" href="https://drive.google.com/file/d/17Ke6um6-cdgnQztISq7P8lGON_txNtID/view?usp=sharing" target="_blank">View Resume <ArrowUpRightFromSquareOutline /></A>
       </article>
     </section>

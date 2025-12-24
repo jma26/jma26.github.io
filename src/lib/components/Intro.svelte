@@ -1,5 +1,5 @@
-<section class="container flex flex-col mx-auto text-white w-full">
-  <div class="backdrop-blur mb-5 -mx-5 p-5 sticky top-0 z-10 lg:static xl:pt-0 xl:mb-0">
+<section id="about" class="container flex flex-col mx-auto text-white w-full">
+  <div class="backdrop-blur -mx-5 p-5 sticky top-0 z-10 lg:static xl:pt-0 xl:mb-4">
     <h2 class="font-bold text-3xl md:4xl xl:text-5xl">Who am I?</h2>
   </div>
   <p>I'm a developer passionate about crafting pixel-perfect user interfaces and websites.</p>
